@@ -1,0 +1,171 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+#header {
+    background-color: white;
+   height: 60px;
+   position: fixed;
+   width: 100%;
+   top: 0;
+left: 0;
+display: flex;
+justify-content: space-between;
+padding-left: 16px;
+padding-right: 16px;
+align-items: center;
+}
+
+#leftside {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 60px;
+    padding: 16px;
+}
+
+#section {
+    width: calc(100% - 250px); 
+    margin-left: 250px;
+    margin-top: 60px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding: 24px;
+    box-sizing: border-box;
+}
+
+#col {
+    width: 23.5%;
+}
+
+#thumb {
+    border-radius: 12px;
+}
+
+#content {
+    display: flex;
+    align-items: start;
+    margin-top: 10px;
+}
+
+#logo {
+    border-radius: 50%;
+}
+
+#title {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#channel-name {
+        margin-top: 6px;
+        margin-bottom: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: gray;
+        font-size: 16px;
+
+}
+
+#views {
+         margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+        color: gray;
+        font-size: 13px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: gray 
+}
+
+#icon-btn {
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+#icon-btn:hover {
+    background-color: #f5f5f5;
+
+}
+
+#left {
+    display: flex;
+    align-items: center;
+}
+
+#centre {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+#right {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+    padding-right: 32px;
+}
+
+#akash-form {
+    display: flex;
+}
+
+#Search {
+    border-color: #ddd;
+    border-width: 1px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 500px;
+}
+
+
+#search-btn {
+    border-color: #ddd;
+    border-width: 1px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+   width: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+#menu {
+    border-style: none;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-size: 14px;
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    background-color:transparent;
+}
